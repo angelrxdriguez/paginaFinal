@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+}
+
+.nav {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1%;
+    border-radius: 8%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 5%;
+}
+
+.carta {
+    background-color: rgb(192, 225, 253);
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+}
